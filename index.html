@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sanket Desai - Web Developer Portfolio. Certified Java Developer with expertise in Spring Boot, React, and full-stack development.">
+    <meta name="keywords" content="Sanket Desai, Web Developer, Java Developer, Spring Boot, React, Full Stack Developer, Portfolio">
+    <meta name="author" content="Sanket Desai">
+    <meta property="og:title" content="Sanket Desai - Web Developer Portfolio">
+    <meta property="og:description" content="Certified Java Developer with expertise in Spring Boot, React, and full-stack development.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <title>Sanket Desai - Web Developer</title>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Sanket Desai</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#blog" class="nav-link">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-controls">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content" data-aos="fade-up">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="accent-text">Sanket Desai</span>
+                </h1>
+                <p class="hero-subtitle">Full-Stack Developer & Java Specialist</p>
+                <p class="hero-description">
+                    Dedicated to crafting exceptional web experiences using modern tech stacks. 
+                    Achieved Grade A+ Java certification from Profound Edutech Institute, Pune.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    <button class="btn btn-outline" id="download-resume">
+                        <i class="fas fa-download"></i> Download Resume
+                    </button>
+                </div>
+                <div class="hero-social">
+                    <a href="https://github.com/sanketInTech" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/sanket-desai-/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://x.com/IAmSanket_21" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://medium.com/@sanketdesai1971" target="_blank" rel="noopener noreferrer" aria-label="Medium">
+                        <i class="fab fa-medium"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">About Me</h2>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <p>
+                        I'm a passionate web developer with a strong foundation in both frontend and backend technologies. 
+                        As a certified Java developer from Profound Edutech Institute, Pune, I achieved a Grade A+ certification, 
+                        demonstrating my commitment to excellence in software development.
+                    </p>
+                    <p>
+                        My expertise spans across modern web technologies including Java, Spring Boot, React, and Node.js. 
+                        I enjoy building scalable applications that solve real-world problems and provide exceptional user experiences.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>2+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h3>10+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h3>Grade A+</h3>
+                            <p>Java Certification</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-timeline" data-aos="fade-left">
+                    <h3>Career Journey</h3>
+                    <div class="timeline">
+                        <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Java Certification</h4>
+                                <p class="timeline-date">2023</p>
+                                <p>Achieved Grade A+ certification from Profound Edutech Institute, Pune</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Full Stack Development</h4>
+                                <p class="timeline-date">2023-2024</p>
+                                <p>Expanded skills to include React, Node.js, and modern web technologies</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Professional Projects</h4>
+                                <p class="timeline-date">2024-Present</p>
+                                <p>Building production-ready applications and contributing to open source</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                    <h3><i class="fas fa-code"></i> Backend</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span class="skill-name">Java</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Spring Boot</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Node.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Express.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">REST API</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                    <h3><i class="fas fa-palette"></i> Frontend</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span class="skill-name">React.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">HTML/CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                    <h3><i class="fas fa-database"></i> Database & Tools</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span class="skill-name">MySQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">MongoDB</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JPA</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="82%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Authentication</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Featured Projects</h2>
+            
+            <div class="project-filters" data-aos="fade-up" data-aos-delay="100">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="backend">Backend</button>
+                <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+                <button class="filter-btn" data-filter="java">Java</button>
+                <button class="filter-btn" data-filter="react">React</button>
+            </div>
+            
+            <div class="project-search" data-aos="fade-up" data-aos-delay="150">
+                <input type="text" id="project-search" placeholder="Search projects...">
+                <i class="fas fa-search"></i>
+            </div>
+            
+            <div class="projects-grid" id="projects-grid">
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200" data-category="backend java">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://github.com/sanketInTech/e-commerce-backend" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>E-commerce Backend</h3>
+                        <p>A professional, production-ready e-commerce backend built with Java, Spring Boot, and MySQL. Features secure REST APIs for user management, product catalog, shopping cart, and order processing.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Spring Boot</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">REST API</span>
+                            <span class="tech-tag">JPA</span>
+                            <span class="tech-tag">Authentication</span>
+                            <span class="tech-tag">Maven</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/sanketInTech/e-commerce-backend" target="_blank" class="project-text-link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-aos="fade-up" data-aos-delay="300" data-category="fullstack react">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://github.com/sanketInTech/stack-overflow-clone" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Stack Overflow Clone</h3>
+                        <p>A full-stack platform where users can ask questions, provide answers, and engage in community discussions. Features user authentication, Q&A posting, upvoting, and commenting system.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React.js</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Express.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">REST API</span>
+                            <span class="tech-tag">Middleware</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/sanketInTech/stack-overflow-clone" target="_blank" class="project-text-link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Latest Blog Posts</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+                Sharing insights and experiences from my development journey
+            </p>
+            <div class="blog-grid" id="blog-grid">
+                <div class="blog-loading" id="blog-loading">
+                    <i class="fas fa-spinner fa-spin"></i>
+                    <p>Loading blog posts...</p>
+                </div>
+            </div>
+            <div class="blog-cta" data-aos="fade-up">
+                <a href="https://medium.com/@sanketdesai1971" target="_blank" class="btn btn-outline">
+                    View All Posts on Medium
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">What People Say</h2>
+            <div class="testimonials-carousel" data-aos="fade-up" data-aos-delay="200">
+                <div class="testimonial-track" id="testimonial-track">
+                    <div class="testimonial-slide active">
+                        <div class="testimonial-content">
+                            <div class="testimonial-text">
+                                <i class="fas fa-quote-left"></i>
+                                <p>"Sanket's attention to detail and problem-solving skills are exceptional. His Java expertise and dedication to clean code make him a valuable team member."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-info">
+                                    <h4>Rahul Sharma</h4>
+                                    <p>Senior Developer, Tech Solutions</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-slide">
+                        <div class="testimonial-content">
+                            <div class="testimonial-text">
+                                <i class="fas fa-quote-left"></i>
+                                <p>"Working with Sanket was a great experience. His full-stack development skills and ability to deliver quality solutions on time are impressive."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-info">
+                                    <h4>Priya Patel</h4>
+                                    <p>Project Manager, Digital Agency</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-slide">
+                        <div class="testimonial-content">
+                            <div class="testimonial-text">
+                                <i class="fas fa-quote-left"></i>
+                                <p>"Sanket's expertise in Spring Boot and React helped us build a robust application. His communication and technical skills are top-notch."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-info">
+                                    <h4>Amit Kumar</h4>
+                                    <p>CTO, StartupTech</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-controls">
+                    <button class="testimonial-btn prev" id="testimonial-prev">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="testimonial-dots" id="testimonial-dots">
+                        <span class="dot active" data-slide="0"></span>
+                        <span class="dot" data-slide="1"></span>
+                        <span class="dot" data-slide="2"></span>
+                    </div>
+                    <button class="testimonial-btn next" id="testimonial-next">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+                Let's discuss your next project or collaboration opportunity
+            </p>
+            
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <a href="mailto:sanketdesai1971@gmail.com">sanketdesai1971@gmail.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>Pune, Maharashtra, India</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <a href="tel:+917218690805">+91 72186 90805</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-social">
+                        <a href="https://github.com/sanketInTech" target="_blank" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/sanket-desai-/" target="_blank" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://x.com/IAmSanket_21" target="_blank" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://medium.com/@sanketdesai1971" target="_blank" aria-label="Medium">
+                            <i class="fab fa-medium"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <form class="contact-form" data-aos="fade-left" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <h3>Sanket Desai</h3>
+                        <p>Web Developer & Java Specialist</p>
+                        <p class="footer-cta">Let's work together — drop me a message!</p>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-envelope"></i> <a href="mailto:sanketdesai1971@gmail.com">sanketdesai1971@gmail.com</a></p>
+                        <p><i class="fas fa-phone"></i> <a href="tel:+917218690805">+91 72186 90805</a></p>
+                        <p><i class="fas fa-map-marker-alt"></i> Pune, Maharashtra, India</p>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Follow Me</h4>
+                    <div class="footer-social">
+                        <a href="https://github.com/sanketInTech" target="_blank" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/sanket-desai-/" target="_blank" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://x.com/IAmSanket_21" target="_blank" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://medium.com/@sanketdesai1971" target="_blank" aria-label="Medium">
+                            <i class="fab fa-medium"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <p>&copy; 2025 Sanket Desai. All rights reserved.</p>
+                </div>
+                <div class="footer-legal">
+                    <a href="#privacy">Privacy Policy</a>
+                    <a href="#terms">Terms of Use</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="script.js"></script>
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
+</body>
+</html>
