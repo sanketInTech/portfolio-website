@@ -6,7 +6,7 @@ A modern, responsive portfolio website showcasing my skills as a Full-Stack Deve
 
 ## 🚀 Live Demo
 
-**Portfolio Website:** [https://sanketintech.github.io/portfolio-website](https://sanketintech.github.io/portfolio-website)
+**Portfolio Website:** [https://sanket-portfolio2.netlify.app/](https://sanket-portfolio2.netlify.app/)
 
 ## 📋 About
 
